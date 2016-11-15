@@ -1,14 +1,36 @@
-nav{
-  height: 60px;
-  background-color: grey;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 80px;
+}
+
+.greg{
+  display: inline-block;
+  border-radius: 100%;
+  font-weight: 800;
+}
+
+header {
   position: fixed;
-  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+nav{
+  right: 10px;
+  top: 10px;
+  background-color: grey;
+  position: absolute;
 }
 
 nav ul{
   display: inline-block;
   list-style: none;
-  text-align: right;
 }
 
 nav li{
