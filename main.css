@@ -4,3 +4,14 @@ nav{
   position: fixed;
   width: 100%;
 }
+
+nav ul{
+  display: inline-block;
+  list-style: none;
+  text-align: right;
+}
+
+nav li{
+  display: inline-block;
+
+}
