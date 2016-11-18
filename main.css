@@ -5,6 +5,7 @@
 body {
 	margin: 0;
 	padding: 80px;
+	font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -13,13 +14,14 @@ header {
 	left: 0;
 	right: 0;
 	padding: 10px;
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #DDDDDD;
 }
 
-nav {
+.upper {
+	position: absolute;
 	right: 10px;
 	top: 10px;
-	background-color: grey;
-	position: absolute;
 }
 
 .nav-item {
@@ -27,8 +29,82 @@ nav {
 	padding: 0 6px;
 }
 
-.greg {
+nav > a {
 	display: inline-block;
-	border-radius: 100%;
-	font-weight: 800;
+}
+
+.greg {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+.greg h1 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.search-section {
+	margin-bottom: 30px;
+}
+
+.search {
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 30px;
+	height: 30px;
+	border: 1px solid grey;
+	border-radius: 3px;
+	padding: 0 5px 0 8px;
+	width: 400px;	
+}
+
+.search-button {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border: solid 1px grey;
+	background-image: url("magnifying-glass.png");
+	background-size: contain;
+}
+
+.page {
+	display: inline-block; 
+	font-size: 0;
+	margin-bottom: 30px;
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+
+.blue {
+	color: blue;
+	font-weight: 600;
+}
+
+.grey {
+	color: grey;
+}
+
+.before-or-after {
+	font-size: 16px;
+	display: inline-block;
+	padding: 8px 15px;
+	border-radius: 3px;
+}
+
+.middle-page {
+	font-size: 16px;
+	padding: 0 30px;
+	padding: 8px 25px;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
 }

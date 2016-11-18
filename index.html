@@ -4,35 +4,50 @@
 <head>
 	<title >CSS Layout Example</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 
 <body>
 	
 	<header>
-		<nav>
-			<a class="greg"><h1>Greg's List</h1></a>
-			<a class="nav-item" href="index.html">Post</a>
-			<a class="nav-item" href="index.html">Account</a>
+		<a class="greg"><h1>Greg's List</h1></a>
+		<nav class="upper">
+			<a href="" class="nav-item" href="index.html">Account</a>
+			<a href="" class="nav-item" href="index.html">Post</a>
 		</nav>
 	</header>
 	
-	<section>
+	<section class="search-section">
 		<form>
-			<label></label>
-			<input type="text" name="">
+			<label for="search">Search Jobs</label>
+			<input type="text" class="search" placeholder="Developer, designer, internship..." />
+			<button class="search-button"></button>
 		</form>
 	</section>
 
-	<section>
-		<div class="prev page"> &lt; &nbsp; prev </div>
-		<div class="middle page"> 1 to 100 of 179 </div>
-		<div class="next page"> next &nbsp; &gt; </div>
+	<section class="page">
+		<a class="before-or-after"> &lt; &nbsp; prev </a>
+		<span class="middle-page"> 1 to 100 of 179 </span>
+		<a class="before-or-after"> next &nbsp; &gt; </a>
 	</section>
 
 	<section>
-		<p><span class=""></span></p>
-		<p><span class=""></span></p>
-		<p><span class=""></span></p>
+		<p>
+			<span class="grey"> June 22 </span>
+			<span class="blue"> Technical Project Manager </span>
+			<span class="grey">  Midtown East </span>
+		</p>
+		<p>
+			<span class="grey"> June 21 </span>
+			<span class="blue"> Frontend Developer </span>
+			<span class="grey"> SoHo </span>
+		</p>
+		<p>
+			<span class="grey"> June 20 </span>
+			<span class="blue"> Senior Python Developer / Cofounder </span>
+			<span class="grey"> Flatiron </span>
+		</p>
+		
 	</section>
 
 </body>
